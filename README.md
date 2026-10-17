@@ -14,7 +14,7 @@ This project demonstrates an integrated asset and service operations solution bu
 
 
 - Service Requests — Record and manage service requests.
--<img width="1917" height="962" alt="Service Request  Fiori" src="https://github.com/user-attachments/assets/e40b1cbe-c6f9-4caf-8cf6-a4432708b6ba" />
+-<img width="1917" height="913" alt="Service Request  Fiori" src="https://github.com/user-attachments/assets/ac67a82b-4ee6-4c59-bf02-ee84977ce2f3" />
 -<img width="1918" height="912" alt="Service Request Detail fiori" src="https://github.com/user-attachments/assets/81052bcf-c1d9-464b-b233-b3f710f2e675" />
 
 
@@ -24,9 +24,25 @@ This project demonstrates an integrated asset and service operations solution bu
 
 
 - Technicians — Maintain technician information.
+- <img width="1912" height="917" alt="Technician Fiori" src="https://github.com/user-attachments/assets/af02b739-4b6e-4f2a-82b3-a1b47e9c7a39" />
+-<img width="1912" height="912" alt="Technician Fiori Detail" src="https://github.com/user-attachments/assets/267554a6-7ea3-4f94-899b-f0c55f5a9979" />
+
+
 - Spare Parts Inventory — Manage parts, stock quantities, and reorder levels.
+- <img width="1905" height="912" alt="Spare parts Fiori" src="https://github.com/user-attachments/assets/74b0a191-390b-4faa-bd64-a7976b200ffc" />
+- <img width="1906" height="912" alt="Spare parts Detail" src="https://github.com/user-attachments/assets/6b69fb88-012c-4b10-9ec9-1ed5eda84718" />
+
+
 - Part Usage — Record spare-part usage against service orders.
+- <img width="1908" height="906" alt="Part Usage fiori" src="https://github.com/user-attachments/assets/1c5fcd7f-3ed7-4568-88ea-ae95e5bf359d" />
+- <img width="1903" height="911" alt="Part usage detail" src="https://github.com/user-attachments/assets/c7166e84-ca7e-425b-ae4c-653f3df638d3" />
+
+
 - Maintenance History — Maintain maintenance records.
+- <img width="1900" height="912" alt="Maintainence History Fiori" src="https://github.com/user-attachments/assets/49308c23-ca21-466b-b50f-31f5c4814379" />
+- <img width="1907" height="908" alt="Maintainence History detail fiori" src="https://github.com/user-attachments/assets/1e6fa38f-32f8-4a8d-a987-c584f1641eff" />
+
+
 
  Technology Stack
 
@@ -60,4 +76,4 @@ The core applications and low-stock filtering have been implemented. The automat
 - Add operational dashboards and KPIs
 - Expand automated testing and documentation
 
-Developed as an SAP ABAP Cloud portfolio project.
+
