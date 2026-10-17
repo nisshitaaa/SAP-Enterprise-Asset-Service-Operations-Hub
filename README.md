@@ -48,6 +48,4 @@ The core applications and low-stock filtering have been implemented. The automat
 - Add operational dashboards and KPIs
 - Expand automated testing and documentation
 
-## Author
-
 Developed as an SAP ABAP Cloud portfolio project.
