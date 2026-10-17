@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PART_USAGE'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PART_USAGE'
+  }
+}
+define service ZUI_PART_USAGE_O4 provider contracts odata_v4_ui {
+  expose ZC_PART_USAGE;
+}

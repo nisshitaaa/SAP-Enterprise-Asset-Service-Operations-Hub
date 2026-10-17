@@ -1,0 +1,27 @@
+@EndUserText.label : 'Draft Database Table for ZESAM_ASSET_D'
+@AbapCatalog.enhancement.category : #EXTENSIBLE_ANY
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table zesam_asset_d {
+
+  key mandt          : mandt not null;
+  key assetid        : abap.char(10) not null;
+  assetname          : abap.char(80);
+  assetcategory      : abap.char(30);
+  serialnumber       : abap.char(40);
+  location           : abap.char(60);
+  manufacturer       : abap.char(60);
+  purchasedate       : abap.dats;
+  warrantyenddate    : abap.dats;
+  assetstatus        : abap.char(20);
+  criticality        : abap.char(10);
+  description        : abap.char(255);
+  createdby          : abp_creation_user;
+  createdat          : abp_creation_tstmpl;
+  lastchangedby      : abp_locinst_lastchange_user;
+  lastchangedat      : abp_locinst_lastchange_tstmpl;
+  locallastchangedat : abp_lastchange_tstmpl;
+  "%admin"           : include sych_bdl_draft_admin_inc;
+
+}

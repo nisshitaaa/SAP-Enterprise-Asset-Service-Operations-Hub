@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_MAINTAIN_HIST'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_MAINTAIN_HIST'
+  }
+}
+define service ZUI_MAINTAIN_HIST_O4 provider contracts odata_v4_ui {
+  expose ZC_MAINTAIN_HIST;
+}

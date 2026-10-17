@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ESAM_ASSET000'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ESAM_ASSET000'
+  }
+}
+define service ZUI_ESAM_ASSET_O4 provider contracts odata_v4_ui {
+  expose ZC_ESAM_ASSET000;
+}

@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_PART_USAGE_O4_P1
+Binding Type: OData V4 - UI
+Service Definition: ZUI_PART_USAGE_O4_P1
+Status: Published
+Service URL:/sap/opu/odata4/sap/zui_part_usage_04_p1/srvd/sap/zui_part_usage_o4/0001/
+Fiori App URL:
+Purpose: Exposes Part Usage data and related spare-part consumption functionality.

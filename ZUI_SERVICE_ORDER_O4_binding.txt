@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_SERVICE_ORDER_O4
+Binding Type: OData V4 - UI
+Service Definition: ZUI_SERVICE_ORDER_O4
+Status: Published
+Service URL:/sap/opu/odata4/sap/zui_service_order_o4/srvd/sap/zui_service_order_o4/0001/
+Fiori App URL:
+Purpose: Exposes Service Order data to the Fiori Elements application.

@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_SPARE_PARTS_O4
+Binding Type: OData V4 - UI
+Service Definition: ZUI_SPARE_PARTS_O4
+Status: Published
+Service URL:/sap/opu/odata4/sap/zui_spare_parts_o4/srvd/sap/zui_spare_parts_o4/0001/
+Fiori App URL:
+Purpose: Exposes Spare Parts Inventory data and stock status.

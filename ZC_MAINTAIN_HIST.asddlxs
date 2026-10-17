@@ -1,0 +1,223 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'HistoryID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'HistoryID'
+annotate view ZC_MAINTAIN_HIST with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @EndUserText.label: 'HistoryID'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'HistoryID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'HistoryID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  HistoryId;
+  
+  @EndUserText.label: 'AssetID'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'AssetID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'AssetID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  AssetId;
+  
+  @EndUserText.label: 'OrderID'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'OrderID'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'OrderID'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  OrderId;
+  
+  
+  
+  @EndUserText.label: 'Asset Name'
+  @UI.identification: [{ position: 35, label: 'Asset Name' }]
+  @UI.lineItem: [{ position: 35, label: 'Asset Name' }]
+  AssetName;
+
+  @EndUserText.label: 'Order Description'
+  @UI.identification: [{ position: 36, label: 'Order Description' }]
+  @UI.lineItem: [{ position: 36, label: 'Order Description' }]
+  OrderDescription;
+  
+  
+  
+  @EndUserText.label: 'MaintenanceType'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'MaintenanceType'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'MaintenanceType'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  MaintenanceType;
+  
+  @EndUserText.label: 'MaintenanceDate'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'MaintenanceDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'MaintenanceDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  MaintenanceDate;
+  
+  @EndUserText.label: 'PerformedBy'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'PerformedBy'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'PerformedBy'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  PerformedBy;
+  
+  @EndUserText.label: 'WorkDescription'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'WorkDescription'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'WorkDescription'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  WorkDescription;
+  
+  @EndUserText.label: 'MaintenanceCost'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'MaintenanceCost'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'MaintenanceCost'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  MaintenanceCost;
+  
+  @EndUserText.label: 'NextDueDate'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'NextDueDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'NextDueDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  NextDueDate;
+  
+  @EndUserText.label: 'Remarks'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Remarks'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Remarks'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Remarks;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalLastChangedAt;
+}

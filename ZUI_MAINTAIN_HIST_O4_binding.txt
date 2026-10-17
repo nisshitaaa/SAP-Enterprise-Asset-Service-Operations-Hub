@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_MAINTAIN_HIST_O4
+Binding Type: OData V4 - UI
+Service Definition: ZUI_MAINTAIN_HIST_O4
+Status: Published
+Service URL:/sap/opu/odata4/sap/zui_maintain_hist_o4/srvd/sap/zui_maintain_hist_o4/0001/
+Fiori App URL:
+Purpose: Exposes Maintenance History data to the Fiori Elements application.

@@ -1,0 +1,272 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'OrderID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'OrderID'
+annotate view ZC_SERVICE_ORDER with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @EndUserText.label: 'OrderID'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'OrderID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'OrderID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  OrderId;
+  
+  @EndUserText.label: 'RequestID'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'RequestID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'RequestID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  RequestId;
+  
+  
+@EndUserText.label: 'Request Description'
+@UI.identification: [{ position: 25, label: 'Request Description' }]
+@UI.lineItem: [{ position: 25, label: 'Request Description' }]
+RequestDescription;
+  
+  
+  @EndUserText.label: 'AssetID'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'AssetID'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'AssetID'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  AssetId;
+  
+  
+@EndUserText.label: 'Asset Name'
+@UI.identification: [{ position: 35, label: 'Asset Name' }]
+@UI.lineItem: [{ position: 35, label: 'Asset Name' }]
+AssetName;
+  
+  
+  @EndUserText.label: 'TechnicianID'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'TechnicianID'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'TechnicianID'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  TechnicianId;
+  
+  
+@EndUserText.label: 'Technician Name'
+@UI.identification: [{ position: 45, label: 'Technician Name' }]
+@UI.lineItem: [{ position: 45, label: 'Technician Name' }]
+TechnicianName;
+  
+  
+  @EndUserText.label: 'OrderDescription'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'OrderDescription'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'OrderDescription'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  OrderDescription;
+  
+  @EndUserText.label: 'OrderPriority'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'OrderPriority'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'OrderPriority'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  OrderPriority;
+  
+  @EndUserText.label: 'OrderStatus'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'OrderStatus'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'OrderStatus'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  OrderStatus;
+  
+  @EndUserText.label: 'PlannedStartDate'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'PlannedStartDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'PlannedStartDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  PlannedStartDate;
+  
+  @EndUserText.label: 'PlannedEndDate'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'PlannedEndDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'PlannedEndDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  PlannedEndDate;
+  
+  @EndUserText.label: 'ActualStartDate'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'ActualStartDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'ActualStartDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  ActualStartDate;
+  
+  @EndUserText.label: 'ActualEndDate'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'ActualEndDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'ActualEndDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  ActualEndDate;
+  
+  @EndUserText.label: 'EstimatedCost'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'EstimatedCost'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'EstimatedCost'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  EstimatedCost;
+  
+  @EndUserText.label: 'ActualCost'
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'ActualCost'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'ActualCost'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  ActualCost;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 180 
+  } ]
+  @UI.lineItem: [ {
+    position: 180 
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  LocalLastChangedAt;
+}

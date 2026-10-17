@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_ESAM_ASSET_O4
+Binding Type: OData V4 - UI
+Service Definition: ZUI_ESAM_ASSET_O4
+Status: Published
+Service URL: /sap/opu/odata4/sap/zui_esam_asset_o4/srvd/sap/zui_esam_asset_o4/0001/
+Fiori App URL:
+Purpose: Exposes Asset Management data to the Fiori Elements application.

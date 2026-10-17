@@ -1,0 +1,7 @@
+Service Binding Name: ZUI_TECHNICIAN_O4
+Binding Type: OData V4 - UI
+Service Definition: ZUI_TECHNICIAN_O4
+Status: Published
+Service URL:/sap/opu/odata4/sap/zui_technician_o4/srvd/sap/zui_technician_o4/0001/
+Fiori App URL:
+Purpose: Exposes Technician records to the Fiori Elements application.

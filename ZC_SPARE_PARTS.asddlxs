@@ -1,0 +1,200 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'PartID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'PartID'
+annotate view ZC_SPARE_PARTS with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @EndUserText.label: 'PartID'
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'PartID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'PartID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  PartID;
+  
+  @EndUserText.label: 'PartName'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'PartName'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'PartName'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  PartName;
+  
+  @EndUserText.label: 'PartCategory'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'PartCategory'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'PartCategory'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  PartCategory;
+  
+  @EndUserText.label: 'Manufacturer'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Manufacturer'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Manufacturer'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Manufacturer;
+  
+  @EndUserText.label: 'StockQuantity'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'StockQuantity'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'StockQuantity'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  StockQuantity;
+  
+  @EndUserText.label: 'ReorderLevel'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'ReorderLevel'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'ReorderLevel'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  ReorderLevel;
+  
+    @EndUserText.label: 'Stock Status'
+  @UI.identification: [{ position: 65, label: 'Stock Status' }]
+  @UI.lineItem: [{ position: 65, label: 'Stock Status' }]
+  StockStatus;
+  
+  @EndUserText.label: 'UnitOfMeasure'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'UnitOfMeasure'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'UnitOfMeasure'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  UnitOfMeasure;
+  
+  @EndUserText.label: 'UnitPrice'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'UnitPrice'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'UnitPrice'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  UnitPrice;
+  
+  @EndUserText.label: 'CurrencyCode'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'CurrencyCode'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'CurrencyCode'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  CurrencyCode;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  LastChangedBy;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LastChangedAt;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LocalLastChangedAt;
+}
